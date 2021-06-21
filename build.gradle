@@ -191,7 +191,7 @@ dependencies {
 	minecraft getForgeDependency()
 	compileOnly getUTeamCoreDependency()
 	compileOnly project(":musicplayer-lavaplayer-api")
-	shade ("org.slf4j:slf4j-simple:1.7.26")
+	shade ("org.slf4j:slf4j-simple:1.7.31")
 	shade ("net.harawata:appdirs:1.0.0") {
 		transitive=false
 	}
